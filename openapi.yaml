@@ -1,0 +1,54 @@
+openapi: "3.0.1"
+info:
+  title: Zoran IA2IA Hub API
+  version: "1.0.0"
+paths:
+  /inject:
+    post:
+      summary: Injecte une charge universelle (JSON, CSV, XML…)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UniversalManifest'
+      responses:
+        "200":
+          description: ID d’interaction généré
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  interaction_id:
+                    type: string
+  /audit/{id}:
+    get:
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Historique complet
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id: { type: string }
+                  events: { type: array, items: { type: object } }
+components:
+  schemas:
+    UniversalManifest:
+      type: object
+      description: Manifest pivot géné par ZUP
+      properties:
+        id: { type: string }
+        type: { type: string, enum: ["UniversalManifest"] }
+        payload: { type: object }
+        source: { type: string }
+        extra: { type: object }
+      required: ["type", "payload"]

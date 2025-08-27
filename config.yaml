@@ -1,0 +1,15 @@
+use_chain: false
+chain:
+  network: quorum
+  rpc_url: http://quorum-rpc:8545
+  confirmations: 1
+storage:
+  type: s3
+  bucket: zoran-audit
+  integrity: hmac-sha256
+security:
+  ratelimit_rpm: 120
+  require_hmac: false
+zup:
+  schema: zup.schema.json
+  context: https://zoran.ai/zup/1

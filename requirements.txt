@@ -1,0 +1,7 @@
+fastapi>=0.111
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pytest>=8.2
+httpx>=0.27
+# Optional if available:
+# zoran-universal-parser>=0.1.0

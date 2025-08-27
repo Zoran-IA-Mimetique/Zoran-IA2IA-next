@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ZUP Universal Manifest",
+  "schema_version": "1.0.0",
+  "type": "object",
+  "required": [
+    "type",
+    "payload"
+  ],
+  "properties": {
+    "@context": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "const": "UniversalManifest"
+    },
+    "source": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "extra": {
+      "type": "object"
+    }
+  }
+}

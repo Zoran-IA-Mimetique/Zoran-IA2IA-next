@@ -1,0 +1,8 @@
+{
+  "type": "UniversalManifest",
+  "payload": {
+    "message": "bonjour",
+    "n": 42
+  },
+  "source": "sample.json"
+}
