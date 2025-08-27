@@ -1,0 +1,8 @@
+axes:
+  identity: {weight:0.2,items:[oidc_discovery,jwks_valid,token_claims]}
+  traceability: {weight:0.2,items:[hash,ts,ndjson]}
+  ethics: {weight:0.2,items:[opa_allow,dpia,rop]}
+  memory: {weight:0.2,items:[ttl,rollback,redaction]}
+  vector: {weight:0.1,items:[upsert_ok,query_ok]}
+  reproducibility: {weight:0.1,items:[seed,env,harness]}
+thresholds: {silver:0.65,gold:0.8,platinum:0.9}

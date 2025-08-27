@@ -1,0 +1,5 @@
+host: MILVUS_HOST
+port: 19530
+collection: zoran_fragments_v1
+metric_type: COSINE
+dim: 1536

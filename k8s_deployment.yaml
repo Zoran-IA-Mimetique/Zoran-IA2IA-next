@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: zoran-serve }
+spec:
+  replicas: 2
+  selector: { matchLabels: { app: zoran-serve } }
+  template:
+    metadata: { labels: { app: zoran-serve } }
+    spec:
+      containers:
+      - name: serve
+        image: ghcr.io/zoran-ia-mimetique/serve:latest
+        ports: [{ containerPort: 8080 }]
+        env:
+        - { name: OPA_URL, value: "http://opa:8181/v1/data/ethicchain/allow" }
+        readinessProbe: { httpGet: { path: /health, port: 8080 }, initialDelaySeconds: 3, periodSeconds: 5 }
+        livenessProbe:  { httpGet: { path: /health, port: 8080 }, initialDelaySeconds: 5, periodSeconds: 10 }

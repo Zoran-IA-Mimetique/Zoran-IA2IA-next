@@ -1,0 +1,16 @@
+{
+  "claims": {
+    "purpose": "research",
+    "license": "MIT",
+    "pii": false,
+    "risk": "low"
+  },
+  "context": {
+    "jurisdiction": "EU",
+    "ai_act": "HRA"
+  },
+  "trace": {
+    "hash": "abcd1234",
+    "ts": "2025-08-27T12:00:00Z"
+  }
+}

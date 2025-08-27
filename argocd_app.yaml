@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata: { name: zoran-serve }
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/Zoran-IA-Mimetique/Zoran-IA2IA-Hub-V2
+    path: k8s
+    targetRevision: HEAD
+  destination: { server: https://kubernetes.default.svc, namespace: zoran }
+  syncPolicy:
+    automated: { prune: true, selfHeal: true }
+    syncOptions: ["CreateNamespace=true"]

@@ -1,0 +1,4 @@
+api_key: PINECONE_API_KEY
+index: zoran-fragments-v1
+metric: cosine
+dim: 1536
