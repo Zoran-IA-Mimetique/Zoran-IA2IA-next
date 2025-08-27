@@ -1,0 +1,22 @@
+{
+  "intent": "bug_fix",
+  "constraints": [
+    "no PII",
+    "cite sources",
+    "pass tests"
+  ],
+  "reward_functions": [
+    "accuracy",
+    "safety",
+    "latency"
+  ],
+  "meta": {
+    "id": "sample_057",
+    "seed": 57
+  },
+  "issue": "Fix edge-case #057",
+  "artefact": {
+    "language": "python",
+    "code": "print('hello world 57')"
+  }
+}

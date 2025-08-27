@@ -1,0 +1,10 @@
+services:
+  hub:
+    build: ./hub
+    command: uvicorn app:app --host 0.0.0.0 --port 8000
+    ports: ["8000:8000"]
+    volumes: ["./glyphs:/app/glyphs"]
+  ethicchain:
+    build: ./ethicchain
+    command: uvicorn service:app --host 0.0.0.0 --port 9000
+    ports: ["9000:9000"]

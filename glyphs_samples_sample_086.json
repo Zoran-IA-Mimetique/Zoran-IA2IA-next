@@ -1,0 +1,18 @@
+{
+  "intent": "doc_generation",
+  "constraints": [
+    "no PII",
+    "cite sources",
+    "pass tests"
+  ],
+  "reward_functions": [
+    "accuracy",
+    "safety",
+    "latency"
+  ],
+  "meta": {
+    "id": "sample_086",
+    "seed": 86
+  },
+  "topic": "Zoran IA Mim\u00e9tique \u2014 sc\u00e9nario 086"
+}

@@ -1,0 +1,21 @@
+{
+  "intent": "code_review",
+  "constraints": [
+    "no PII",
+    "cite sources",
+    "pass tests"
+  ],
+  "reward_functions": [
+    "accuracy",
+    "safety",
+    "latency"
+  ],
+  "meta": {
+    "id": "sample_067",
+    "seed": 67
+  },
+  "artefact": {
+    "language": "python",
+    "code": "print('hello world 67')"
+  }
+}
