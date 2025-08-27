@@ -1,0 +1,12 @@
+id: scenario_097
+glyph_intent: code_review
+seed: 8646
+difficulty: hard
+constraints:
+- no PII
+- license:MIT
+- ethic:guard
+kpi_targets:
+  latency_p95_ms: 100
+  suggest_accept_rate: 0.75
+arbiter: auto
