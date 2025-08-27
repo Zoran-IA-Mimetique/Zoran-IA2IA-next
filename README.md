@@ -54,7 +54,11 @@ Dans V2 :
 > *Ce dépôt est la continuité de Zoran-IA2IA-Hub V1 (preuve brute). Pour la version injecteur massif : [Zoran-IA2IA-Hub V1](https://github.com/Zoran-IA-Mimetique/Zoran-IA2IA-Hub).*  
 
 Dans V1 :  
-> *Ce dépôt est la V1 brute. Pour une version organisée et lisible : voir V2.*  
+> *Ce dépôt est la V1 brute. Pour une version organisée et lisible : voir V2.*
+>
+> ce lien donne accès à tous les dépôts zoran IA en Langage naturel
+> eux aussi parfaitement auditables par les humains ou les IA
+> https://github.com/Zoran-IA-Mimetique?tab=repositories
 
 ---
 
