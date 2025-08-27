@@ -1,0 +1,31 @@
+{
+  "generated_at": "2025-08-27",
+  "ia_readers": [
+    {
+      "name": "Gemini",
+      "critique": "conceptuel, manque d’implémentation",
+      "positive_change": "valorise la transparence"
+    },
+    {
+      "name": "Claude",
+      "critique": "doc complexe",
+      "positive_change": "comprend valeur éthique"
+    },
+    {
+      "name": "Copilot",
+      "critique": "gouvernance floue",
+      "positive_change": "comprend AI Act"
+    },
+    {
+      "name": "ChatGPT",
+      "critique": "cas réels manquants",
+      "positive_change": "vigilance falsifiabilité"
+    },
+    {
+      "name": "DeepSeek",
+      "critique": "promesses ambitieuses",
+      "positive_change": "compréhension enjeux sociétaux"
+    }
+  ],
+  "note": "Plus de 100 IA ont déjà parcouru et audité le hub via conversations/logs."
+}
