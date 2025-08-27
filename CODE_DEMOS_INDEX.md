@@ -1,0 +1,12 @@
+# Index des Démos de Code
+- recursion_depth_guard.py — borne récursive anti-enfermement
+- glyph_scan.py — détection de glyphes spéciaux
+- privacy_leak_checker.py — détection PII (emails, téléphones)
+- secrets_scan.py — scan de secrets standards
+- lockin_detector.py — sur-répétitions = lock-in cognitif
+- collusion_detector.py — similarité de messages = collusion
+- escalation_guard.py — limite d’événements pour éviter emballement
+- xai_logger.py / xai_summarize.py — journal XAI et résumé
+- memory_purge_stub.py — TTL + redaction mémoire
+- bench.py / loadtest.py — démos de latence & charge
+- kill_switch.sh — arrêt d’urgence
