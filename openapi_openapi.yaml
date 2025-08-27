@@ -1,0 +1,37 @@
+openapi: 3.0.3
+info:
+  title: Zoran IA2IA Hub API (PoC v2)
+  version: 2.0.0
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: OK
+  /glyphs/validate:
+    post:
+      summary: Validate a glyph against its schema
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Validation result
+  /messages:
+    post:
+      summary: Submit a message guarded by EthicChain
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Message accepted
+        '403':
+          description: Blocked by EthicChain

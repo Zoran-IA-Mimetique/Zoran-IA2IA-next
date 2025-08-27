@@ -1,0 +1,1 @@
+Hub IA↔IA Zoran v2 : PoC concret (FastAPI-ready), EthicChain guard, glyphes JSON standardisés, 100 scénarios de tests, OpenAPI, docker-compose, métriq

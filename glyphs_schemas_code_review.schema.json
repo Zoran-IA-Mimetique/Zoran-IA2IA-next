@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CodeReviewGlyph",
+  "type": "object",
+  "required": [
+    "intent",
+    "artefact",
+    "constraints",
+    "reward_functions"
+  ],
+  "properties": {
+    "intent": {
+      "const": "code_review"
+    },
+    "artefact": {
+      "type": "object",
+      "required": [
+        "language",
+        "code"
+      ],
+      "properties": {
+        "language": {
+          "type": "string"
+        },
+        "code": {
+          "type": "string"
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reward_functions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "meta": {
+      "type": "object"
+    }
+  }
+}

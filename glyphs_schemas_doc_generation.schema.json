@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DocGenerationGlyph",
+  "type": "object",
+  "required": [
+    "intent",
+    "topic",
+    "constraints",
+    "reward_functions"
+  ],
+  "properties": {
+    "intent": {
+      "const": "doc_generation"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reward_functions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "meta": {
+      "type": "object"
+    }
+  }
+}

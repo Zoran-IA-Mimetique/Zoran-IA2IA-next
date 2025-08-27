@@ -1,0 +1,1 @@
+Zoran-IA2IA-Review-Chain v2 — dépôt opérationnel pour la revue mimétique distribuée : hub FastAPI-ready, EthicChain (garde éthique) minimal, glyphes JSON (schemas + samples), 100 scénarios YAML, OpenAPI, docker-compose, tests & métriques (latence P95, % acceptation, coûts).
