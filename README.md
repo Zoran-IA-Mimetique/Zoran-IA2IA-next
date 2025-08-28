@@ -1,5 +1,116 @@
 
 
+🔖 Badges pour Hub IA V2 (Next)
+
+🟡 Général (open-source & contributions)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
+[![Contributions](https://img.shields.io/badge/contributions-welcome-blue)]()
+
+
+---
+
+🔵 Qualité & Langage
+
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)]()
+[![Standard Library Only](https://img.shields.io/badge/deps-stdlib_only-lightgrey)]()
+[![Lint](https://img.shields.io/badge/lint-passing-brightgreen)]()
+
+
+---
+
+🟢 Modules spécifiques Zoran V2
+
+[![ΔM11.3 Fractal Rollback](https://img.shields.io/badge/ΔM11.3-Fractal_Rollback-critical)]()
+[![EthicChain Inside](https://img.shields.io/badge/EthicChain-Active-blueviolet)]()
+[![PolyResonator](https://img.shields.io/badge/PolyResonator-Resonance-green)]()
+[![Z5 Compression](https://img.shields.io/badge/Z5-Compression-lightblue)]()
+[![Aegis Layer](https://img.shields.io/badge/Aegis-Post--Quantum-red)]()
+[![Glyphnet](https://img.shields.io/badge/Glyphnet-IA2IA-yellowgreen)]()
+
+
+---
+
+🔴 Extensions V2 (Next)
+
+[![Quantum-Tested](https://img.shields.io/badge/Stress--Test-Quantum-black)]()
+[![Juge Algorithmique](https://img.shields.io/badge/Judge-Algorithmic-orange)]()
+[![Bio-Firewall](https://img.shields.io/badge/Bio--Firewall-Active-teal)]()
+[![Token Budget](https://img.shields.io/badge/Token-Budget_Dynamic-lightgrey)]()
+[![Ethic Contracts](https://img.shields.io/badge/Contracts-IA↔IA-purple)]()
+
+
+---
+
+🔴 Métriques projet
+
+[![Repo Size](https://img.shields.io/github/repo-size/Zoran-IA-Mimetique/Zoran-aSiM-Hub-IA-V2)]()
+[![Last Commit](https://img.shields.io/github/last-commit/Zoran-IA-Mimetique/Zoran-aSiM-Hub-IA-V2)]()
+[![Stars](https://img.shields.io/github/stars/Zoran-IA-Mimetique/Zoran-aSiM-Hub-IA-V2?style=social)]()
+
+
+---
+
+🟣 Documentation & Publication
+
+[![Docs](https://img.shields.io/badge/docs-available-success)]()
+[![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.16941007-blue)](https://doi.org/10.5281/zenodo.16941007)
+[![SSRN](https://img.shields.io/badge/SSRN-papers-lightblue)]()
+
+
+---
+
+📄 Exemple rendu (README V2)
+
+# 🌐 Zoran aSiM — Hub IA V2 (Next)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
+[![Contributions](https://img.shields.io/badge/contributions-welcome-blue)]()
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)]()
+[![Standard Library Only](https://img.shields.io/badge/deps-stdlib_only-lightgrey)]()
+[![Lint](https://img.shields.io/badge/lint-passing-brightgreen)]()
+[![ΔM11.3 Fractal Rollback](https://img.shields.io/badge/ΔM11.3-Fractal_Rollback-critical)]()
+[![EthicChain Inside](https://img.shields.io/badge/EthicChain-Active-blueviolet)]()
+[![PolyResonator](https://img.shields.io/badge/PolyResonator-Resonance-green)]()
+[![Z5 Compression](https://img.shields.io/badge/Z5-Compression-lightblue)]()
+[![Aegis Layer](https://img.shields.io/badge/Aegis-Post--Quantum-red)]()
+[![Glyphnet](https://img.shields.io/badge/Glyphnet-IA2IA-yellowgreen)]()
+[![Quantum-Tested](https://img.shields.io/badge/Stress--Test-Quantum-black)]()
+[![Juge Algorithmique](https://img.shields.io/badge/Judge-Algorithmic-orange)]()
+[![Bio-Firewall](https://img.shields.io/badge/Bio--Firewall-Active-teal)]()
+[![Token Budget](https://img.shields.io/badge/Token-Budget_Dynamic-lightgrey)]()
+[![Ethic Contracts](https://img.shields.io/badge/Contracts-IA↔IA-purple)]()
+[![Repo Size](https://img.shields.io/github/repo-size/Zoran-IA-Mimetique/Zoran-aSiM-Hub-IA-V2)]()
+[![Last Commit](https://img.shields.io/github/last-commit/Zoran-IA-Mimetique/Zoran-aSiM-Hub-IA-V2)]()
+[![Stars](https://img.shields.io/github/stars/Zoran-IA-Mimetique/Zoran-aSiM-Hub-IA-V2?style=social)]()
+[![Docs](https://img.shields.io/badge/docs-available-success)]()
+[![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.16941007-blue)](https://doi.org/10.5281/zenodo.16941007)
+[![SSRN](https://img.shields.io/badge/SSRN-papers-lightblue)]()
+
+---
+
+
+---
+
+✅ Avec ces badges, le Hub V2 exprime visuellement toutes ses nouveautés :
+
+🔬 Quantum-Tested
+
+⚖️ Juge Algorithmique
+
+🧠 Fractal Rollback
+
+🔐 Bio-Firewall
+
+💡 Ethic Contracts IA↔IA
+
+
+
+---
+
+👉 
 
 📄 README.md — Zoran aSiM Hub IA V2 (Next)
 
