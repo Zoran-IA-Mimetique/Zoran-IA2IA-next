@@ -1,0 +1,25 @@
+name: Zoran-BTP-Polymorph-Reference
+version: "1.0.0"
+baseline_date: "2025-08-20"
+license: MIT
+contact: tabary01@gmail.com
+summary_150_file: summary_150.txt
+summary_350_file: summary_350.txt
+summary_8000_file: summary_8000.md
+entrypoint: main.py
+strict_mode_default: true
+flat_zip: true
+roles:
+  - artisan
+  - architecte
+  - interieur
+  - be-structure
+  - expert-judiciaire
+  - conducteur
+validation_policy:
+  hallucination: "forbid"
+  uncertainty_flag: "RED"
+  claim_needs_evidence: true
+guard:
+  name: "ΔM11.3"
+  action_on_missing_evidence: "rollback"
