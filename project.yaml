@@ -1,12 +1,34 @@
-name: Zoran-Injecteur-Vivant-Cryptage-Semantique
+name: Zoran-IA2IA-next
 version: "1.0.0"
+date: 2025-08-29
 license: MIT
-contact: tabary01@gmail.com
-aegis:
-  ethic: care
-  vigilance: true
-  public_good: true
-security:
-  tamper_evident: HMAC-SHA256
-  cipher: sha256_keystream
-  disclaimer: "PoC stdlib only"
+contacts:
+  - name: Frederic Tabary
+    email: tabary01@gmail.com
+modules:
+  - injectors
+  - zdm_dual_memory
+  - polyresonator_orchestrator
+  - ethicchain
+artifacts:
+  - README.md
+  - LICENSE
+  - summary_150.txt
+  - summary_350.txt
+  - summary_8000.md
+  - zoran_ia2ia_next.zgs
+  - main.py
+  - demo.py
+  - hub_index.md
+  - EthicChain.md
+  - project.yaml
+  - docker-compose.yml
+  - metrics.json
+  - state.json
+links:
+  gamma: null
+  zenodo_doi: null
+  medium: null
+guard:
+  delta_M_11_3: enabled
+  aegis_layer: enabled

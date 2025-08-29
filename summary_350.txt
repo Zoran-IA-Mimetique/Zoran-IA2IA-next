@@ -1,1 +1,1 @@
-PoC stdlib de l’injecteur vivant Zoran : activation ΔM11.3, bloc Aegis, fragments `.zgs` scellés via HMAC‑SHA256 et chiffrage keystream SHA‑256. Empreinte rejouable, altérations détectables (tamper‑evident). MIT, reproductible, éthique.
+Zoran‑IA2IA‑next regroupe les injecteurs IA↔IA, la mémoire fractale (ZDM) avec rollback ΔM11.3, l’orchestrateur PolyResonator et l’EthicChain. Packaging complet (README, YAML, démos stdlib-only, .zgs), index de hub, liens Gamma/Zenodo, conformité RGPD/AI Act, prêt à cloner et auditer.

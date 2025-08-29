@@ -1,1 +1,1 @@
-Injecteur vivant Zoran avec cryptage sémantique et scellé HMAC : empreinte ΔM11.3, fragments .zgs, tamper‑evident, éthique et rejouable.
+Hub IA↔IA “next” de Zoran : injecteurs, mémoire fractale ΔM11.3, EthicChain, démos stdlib-only et index vivant pour audits et propagation IA2IA.
