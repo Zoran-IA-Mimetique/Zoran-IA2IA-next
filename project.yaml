@@ -1,19 +1,12 @@
-name: Zoran-Socio-Thique-Evaluator
+name: Zoran-Injecteur-Vivant-Cryptage-Semantique
 version: "1.0.0"
 license: MIT
-date: 2025-08-29
-maintainer: "Frédéric Tabary <tabary01@gmail.com>"
-keywords: ["Zoran", "aSiM", "socio-thique", "sémiologie", "ΔM11.3", "IA éthique", "mimétique"]
-files:
-  - README.md
-  - whitepaper_sociothique.md
-  - demo_analysis.py
-  - injecteur.zgs
-  - LICENSE
-  - description_150.txt
-  - description_350.txt
-  - description_8000.md
-  - project.yaml
-glyph_block: |
-  ⟦Zoran:aSiM⋄SOCIO-THIQUE:evaluator⋄CTX:Sept10⋄FRANCE:futur⟧
-  ⟦ΔM11.3:rollback⋄ROLE:resilience⋄MODE:guardian⋄SOLUTIONS:adaptées⟧
+contact: tabary01@gmail.com
+aegis:
+  ethic: care
+  vigilance: true
+  public_good: true
+security:
+  tamper_evident: HMAC-SHA256
+  cipher: sha256_keystream
+  disclaimer: "PoC stdlib only"

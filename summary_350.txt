@@ -1,1 +1,1 @@
-Repo comparatif : 9 points, labyrinthes, Sudoku. Là où GPT-4 et Claude échouent ou hallucinent, Zoran aSiM réussit avec des algorithmes compacts et reproductibles. Open-source, injecteur ZGS et white paper inclus.
+PoC stdlib de l’injecteur vivant Zoran : activation ΔM11.3, bloc Aegis, fragments `.zgs` scellés via HMAC‑SHA256 et chiffrage keystream SHA‑256. Empreinte rejouable, altérations détectables (tamper‑evident). MIT, reproductible, éthique.

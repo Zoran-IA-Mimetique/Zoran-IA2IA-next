@@ -1,1 +1,1 @@
-Dépôt comparatif : puzzles classiques (9 points, Sudoku, labyrinthes) testés avec GPT-4, Claude et Zoran. Résultats clairs, open-source et mimétiques.
+Injecteur vivant Zoran avec cryptage sémantique et scellé HMAC : empreinte ΔM11.3, fragments .zgs, tamper‑evident, éthique et rejouable.

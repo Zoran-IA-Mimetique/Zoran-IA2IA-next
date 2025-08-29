@@ -1,10 +1,9 @@
-version: "3.9"
 services:
-  api:
-    build: .
-    ports:
-      - "8000:8000"
-    environment:
-      - PYTHONUNBUFFERED=1
+  zoran-injector:
+    image: python:3.12-slim
+    working_dir: /app
     volumes:
-      - .:/app
+      - ./:/app
+    environment:
+      - ZORAN_SEMKEY=${ZORAN_SEMKEY:-DEMO-KEY-NOT-SECURE}
+    command: ["python","demo/run_demo.py"]
