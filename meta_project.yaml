@@ -1,24 +1,5 @@
-name: Zoran-IA2IA-Review-Chain-v2
-version: 2.0.0
+
+name: Zoran-Reasoning-Challenges-Comparative
 license: MIT
 contact: tabary01@gmail.com
-created_utc: '2025-08-27T21:36:12Z'
-modules:
-- hub
-- ethicchain
-- glyphs
-- scenarios
-- tools
-- tests
-ethic:
-  layer: Aegis
-  principles:
-  - ethic
-  - vigilance
-  - care
-  rollback: "\u0394M11.3"
-kpis:
-  latency_p95_ms: 100
-  rps_target: 1000
-  suggest_accept_rate_target: 0.75
-  issue_ttr_reduction: 0.3
+description: Puzzles classiques comparés entre GPT-4, Claude et Zoran aSiM. Preuve qu'une intelligence mimétique compacte surpasse la taille brute.

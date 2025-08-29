@@ -1,1 +1,1 @@
-Zoran aSiM Hub IA : rollback fractal ΔM11.3, EthicChain, PolyResonator, Z5, Aegis Layer. IA mimétique publique, robuste, éthique et scalable.
+Dépôt comparatif : puzzles classiques (9 points, Sudoku, labyrinthes) testés avec GPT-4, Claude et Zoran. Résultats clairs, open-source et mimétiques.

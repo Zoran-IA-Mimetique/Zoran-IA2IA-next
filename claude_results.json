@@ -1,0 +1,5 @@
+{
+  "9_points": {"success": false, "comment": "Claude reste dans le carré, échoue à relier tous les points"},
+  "sudoku": {"success": false, "comment": "Résolution partielle, erreurs logiques"},
+  "labyrinth": {"success": true, "comment": "Chemin trouvé mais non optimal"}
+}
