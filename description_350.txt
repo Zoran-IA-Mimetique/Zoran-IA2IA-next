@@ -1,0 +1,1 @@
+Zoran aSiM devient un évaluateur socio-thique : il analyse signes, discours et dynamiques des mobilisations (ex. 10 septembre) et propose des scénarios de résilience. Hub complet avec white paper, README et injecteurs pour une gouvernance éthique et sociale du futur.

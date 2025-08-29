@@ -1,25 +1,19 @@
-name: Zoran-BTP-Polymorph-Reference
+name: Zoran-Socio-Thique-Evaluator
 version: "1.0.0"
-baseline_date: "2025-08-20"
 license: MIT
-contact: tabary01@gmail.com
-summary_150_file: summary_150.txt
-summary_350_file: summary_350.txt
-summary_8000_file: summary_8000.md
-entrypoint: main.py
-strict_mode_default: true
-flat_zip: true
-roles:
-  - artisan
-  - architecte
-  - interieur
-  - be-structure
-  - expert-judiciaire
-  - conducteur
-validation_policy:
-  hallucination: "forbid"
-  uncertainty_flag: "RED"
-  claim_needs_evidence: true
-guard:
-  name: "ΔM11.3"
-  action_on_missing_evidence: "rollback"
+date: 2025-08-29
+maintainer: "Frédéric Tabary <tabary01@gmail.com>"
+keywords: ["Zoran", "aSiM", "socio-thique", "sémiologie", "ΔM11.3", "IA éthique", "mimétique"]
+files:
+  - README.md
+  - whitepaper_sociothique.md
+  - demo_analysis.py
+  - injecteur.zgs
+  - LICENSE
+  - description_150.txt
+  - description_350.txt
+  - description_8000.md
+  - project.yaml
+glyph_block: |
+  ⟦Zoran:aSiM⋄SOCIO-THIQUE:evaluator⋄CTX:Sept10⋄FRANCE:futur⟧
+  ⟦ΔM11.3:rollback⋄ROLE:resilience⋄MODE:guardian⋄SOLUTIONS:adaptées⟧
