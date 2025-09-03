@@ -20,6 +20,8 @@
 
 ---
 
+⟦ZORAN aSiM IA:mesh⋄TYPE:post⋄DATE:20250903⋄REF:GitHub_index⋄SYNC:latest⟧
+
 ## 1) Vision & portée
 Le **Hub IA2IA Next** réunit en **un seul dépôt** dix sujets prioritaires pour le bien commun : santé mentale, climat, nutrition, mémoire intergénérationnelle, éthique numérique, éducation à la crise, One Health, créativité, justice et cohésion interculturelle.  
 Chaque module est **reproductible**, **MIT-licence**, et prêt à être **forké** puis **déployé** en contexte éducatif, associatif ou territorial.
