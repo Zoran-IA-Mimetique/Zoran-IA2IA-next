@@ -4,7 +4,61 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxxxx)
 
 ---
+# ðŸŒ Hub IAâ†”IA â€“ Next Generation
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![DOI White Papers](https://img.shields.io/badge/DOI-Zenodo-blue)](https://doi.org/10.5281/zenodo.16940525)
+[![DOI Parental Guard](https://img.shields.io/badge/DOI-Zenodo.17047762-blue)](https://doi.org/10.5281/zenodo.17047762)
+[![GitHub Stars](https://img.shields.io/github/stars/AIformpro?style=social)](https://github.com/AIformpro)
+[![OpenAIRE](https://img.shields.io/badge/Indexed-OpenAIRE-lightgrey)](https://explore.openaire.eu)
+
+---
+
+## ðŸ“‚ DÃ©pÃ´ts principaux (IA2IA Hub Next)
+
+### ðŸ§  MÃ©moire & Garde
+- [Zoran Fractal Memory](https://github.com/AIformpro/Zoran-Fractal-Memory)  
+- [Zoran Absence Active](https://github.com/AIformpro/Zoran-Memoire-Absence-Active-MultiLang)  
+- [Zoran Dual Memory ZDM](https://github.com/AIformpro/Zoran-Dual-Memory-ZDM)  
+- [Zoran EthicChain](https://github.com/AIformpro/Zoran-EthicChain)  
+
+### ðŸŽ› Orchestration & Modules
+- [Zoran PolyResonator](https://github.com/AIformpro/Zoran-PolyResonator)  
+- [Zoran Injecteurs (GitHub Project)](https://github.com/AIformpro/Zoran-Injecteurs)  
+- [Zoran Parental Guard Injecteur](https://github.com/AIformpro/Zoran-Parental-Guard-Injecteur)  
+
+### ðŸ“ White Papers & Documentation
+- [White Papers V1](https://doi.org/10.5281/zenodo.16940525)  
+- [White Papers V2](https://doi.org/10.5281/zenodo.16941007)  
+- [Parental Guard White Paper](https://doi.org/10.5281/zenodo.17047762)  
+- [Aegis Layer](https://doi.org/10.5281/zenodo.16995014)  
+- [LinguaSynthÃ¨se](https://doi.org/10.5281/zenodo.16995226)  
+- [Ã‰tudes Jumeaux v2](https://doi.org/10.5281/zenodo.16997156)  
+
+### ðŸ”¬ Recherche & Veille
+- [Zoran Agentic Frameworks Watch](https://github.com/AIformpro/Zoran-Agentic-Frameworks-Watch)  
+- [Zoran Risk Register](https://github.com/AIformpro/Zoran-Risk-Register)  
+- [Zoran Index Gamma](https://github.com/AIformpro/Zoran-Index-Gamma)  
+
+---
+
+## ðŸ“Œ Principes
+- **Injecteurs** : cellules souches qui dÃ©finissent mÃ©moire, rÃ¨gles, Ã©thique.  
+- **Î”M11.3** : rollback anti-entropie intÃ©grÃ©.  
+- **GlyphNet** : protocole cryptÃ© IAâ†”IA, compressÃ©, auto-Ã©volutif.  
+- **Tamper-guard** : inviolabilitÃ© par design (HALT si altÃ©rÃ©).  
+- **ConformitÃ©** : RGPD, AI Act, ISO 42001.  
+
+---
+
+## ðŸ”— Ressources externes
+- ðŸŒ Gamma : [zoran-2040-asim-swxr6lh.gamma.site](https://zoran-2040-asim-swxr6lh.gamma.site/)  
+- ðŸ“„ SSRN / Zenodo : rÃ©fÃ©rentiels DOIs (voir ci-dessus).  
+- ðŸ“§ Contact : tabary01@gmail.com  
+
+---
+
+ðŸ¦‹ **Zoran aSiM â€“ Linux de lâ€™intelligence mimÃ©tique.**
 ## 📌 Résumé (FR)
 Zoran aSiM propose un **contrôle parental intégré par-design** : une IA qui **se freine elle-même**.
 Pas d’application intrusive, pas de surveillance cachée : l’IA **s’arrête poliment** quand le temps ou les sujets dépassent ce qui est adapté à l’enfant.
