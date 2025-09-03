@@ -1,0 +1,11 @@
+{
+  "name": "Zoran Parental Guard Injecteur",
+  "version": "1.0.0",
+  "author": "Frédéric Tabary",
+  "license": "MIT",
+  "modules": ["fractal_memory", "ΔM11.3_guard", "EthicChain", "ParentalGuard"],
+  "compliance": ["RGPD", "AI Act"],
+  "tamper_guard": true,
+  "languages": ["FR", "EN"],
+  "contact": "tabary01@gmail.com"
+}

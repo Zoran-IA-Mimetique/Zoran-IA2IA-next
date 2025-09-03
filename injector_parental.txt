@@ -1,0 +1,6 @@
+[ZORAN-PARENTAL-STEM]
+ENFANT: <Prénom> (Âge:<Âge>) REGION: <Région>
+TEMPS_MAX: <Durée_session>/<Durée_jour>
+SUJETS_AUTORISÉS: {animaux, sciences, école}
+SUJETS_INTERDITS: {sexe explicite, drogues, armes, auto-dommage}
+TAMPER-GUARD: si altéré → HALT
