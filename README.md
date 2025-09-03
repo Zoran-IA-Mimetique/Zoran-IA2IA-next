@@ -1,12 +1,7 @@
-# Zoran aSiM — DOI Index & Whitepaper Hub
 
 [![DOI](https://img.shields.io/badge/DOI-Zenodo-blue)](https://doi.org/zenodo.17045547)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![CI: DOI Check](https://img.shields.io/github/actions/workflow/status/AIformpro/Zoran-DOI-Index-Hub/validate-dois.yml?label=DOI%20check)](.github/workflows/validate-dois.yml)
-
-
-# Zoran aSiM — DOI Index & Whitepaper Hub
-
 [![DOI](https://img.shields.io/badge/DOI-Zenodo-blue)](https://doi.org/10.5281/zenodo.17045547)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![CI: DOI Check](https://img.shields.io/github/actions/workflow/status/AIformpro/Zoran-DOI-Index-Hub/validate-dois.yml?label=DOI%20check)](.github/workflows/validate-dois.yml)
