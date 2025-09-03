@@ -1,0 +1,74 @@
+updated: '2025-09-03'
+items:
+- doi: 10.5281/zenodo.16940525
+  title: Zoran aSiM — White Papers V1 (baseline)
+  status: published
+  lang:
+  - EN
+  - FR
+  tags:
+  - Zoran aSiM
+  - White Papers
+  - Baseline
+  added: '2025-09-03'
+- doi: 10.5281/zenodo.16941007
+  title: White Papers V2 — Mémoire par Absence Active (Negative Proof)
+  status: published
+  lang:
+  - FR
+  - EN
+  tags:
+  - Absence Active
+  - Memory
+  added: '2025-09-03'
+- doi: 10.5281/zenodo.16940299
+  title: '[Title pending] — Public Version V1 (to confirm)'
+  status: published
+  lang:
+  - EN
+  - FR
+  tags:
+  - Public Release
+  added: '2025-09-03'
+- doi: 10.5281/zenodo.16995014
+  title: Aegis Layer — Living Governance
+  status: published
+  lang:
+  - EN
+  - FR
+  tags:
+  - Aegis
+  - Governance
+  - EthicChain
+  added: '2025-09-03'
+- doi: 10.5281/zenodo.16995226
+  title: LinguaSynthèse
+  status: published
+  lang:
+  - FR
+  - EN
+  tags:
+  - Language
+  - Glyphnet
+  added: '2025-09-03'
+- doi: 10.5281/zenodo.16997156
+  title: Zoran — Twin Studies v2
+  status: published
+  lang:
+  - EN
+  - FR
+  tags:
+  - Twins
+  - Research
+  added: '2025-09-03'
+- doi: 10.5281/zenodo.17045547
+  title: Zoran aSiM — From Legal Mimesis to Living Mimesis (OHADA × AI)
+  status: published
+  lang:
+  - EN
+  - FR
+  tags:
+  - Legal Mimesis
+  - OHADA
+  - Mimetic AI
+  added: '2025-09-03'

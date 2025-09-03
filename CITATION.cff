@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: Zoran aSiM — DOI Index & Whitepaper Hub
+message: "If you use this repository, please cite the corresponding Zenodo DOIs."
+type: dataset
+authors:
+  - family-names: Tabary
+    given-names: Frédéric
+    email: tabary01@gmail.com
+repository-code: https://github.com/AIformpro/Zoran-DOI-Index-Hub
+date-released: 2025-09-03
+doi: 10.5281/zenodo.17045547
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.16940525
+  - type: doi
+    value: 10.5281/zenodo.16941007
+  - type: doi
+    value: 10.5281/zenodo.16940299
+  - type: doi
+    value: 10.5281/zenodo.16995014
+  - type: doi
+    value: 10.5281/zenodo.16995226
+  - type: doi
+    value: 10.5281/zenodo.16997156
+  - type: doi
+    value: 10.5281/zenodo.17045547

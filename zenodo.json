@@ -1,0 +1,62 @@
+{
+  "title": "Zoran aSiM \u2014 DOI Index & Whitepaper Hub",
+  "upload_type": "dataset",
+  "description": "Central index of all Zoran aSiM white papers and releases with Zenodo DOIs. Includes bilingual summaries, keywords (FR/EN), and scripts to validate DOI resolution.",
+  "creators": [
+    {
+      "name": "Tabary, Fr\u00e9d\u00e9ric",
+      "affiliation": "Institut IA Lab / Zoran InstituteIA",
+      "orcid": ""
+    }
+  ],
+  "keywords": [
+    "Zoran aSiM",
+    "Mimetic AI",
+    "Legal Mimesis",
+    "OHADA",
+    "\u0394M11.3",
+    "Fractal Memory",
+    "Glyphnet",
+    "Ambient Intelligence",
+    "AI Ethics",
+    "Distributed Multi-Agent Systems"
+  ],
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16940525",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16941007",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16940299",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16995014",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16995226",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16997156",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.17045547",
+      "scheme": "doi"
+    }
+  ]
+}
