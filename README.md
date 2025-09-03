@@ -103,3 +103,8 @@ Il inclut des résumés bilingues, des mots-clés et des scripts de validation d
 ⟦ASIM:Zoran⋄UBIQ:IA↔IA⋄ΔM11.3:rollback⋄MEM:fractale⟧
 ⟦IDX:DOI⋄HUB:GitHub⋄SCAN:full_whitepapers⟧
 ```
+## 📚 Citation / Citation
+If you use this hub, please cite the corresponding **Zenodo DOIs**.  
+Si vous utilisez ce hub, merci de citer les **DOIs Zenodo** correspondants.
+
+**Contact:** Frédéric Tabary · tabary01@gmail.com · Institut IA Lab / Zoran InstituteIA
