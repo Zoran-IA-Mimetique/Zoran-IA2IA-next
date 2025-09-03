@@ -1,11 +1,24 @@
 {
-  "name": "Zoran Parental Guard Injecteur",
-  "version": "1.0.0",
-  "author": "Frédéric Tabary",
+  "name": "Zoran-IA2IA-Hub-Next-Injectors-X10",
+  "version": "v1.0.0",
+  "date": "2025-09-03",
   "license": "MIT",
-  "modules": ["fractal_memory", "ΔM11.3_guard", "EthicChain", "ParentalGuard"],
-  "compliance": ["RGPD", "AI Act"],
-  "tamper_guard": true,
-  "languages": ["FR", "EN"],
-  "contact": "tabary01@gmail.com"
+  "contact": "tabary01@gmail.com",
+  "modules": [
+    "mental_health_youth",
+    "climate_local_resilience",
+    "microbiome_nutrition",
+    "intergenerational_memory",
+    "digital_ethics",
+    "crisis_education",
+    "one_health",
+    "augmented_creativity",
+    "justice_access",
+    "intercultural_dialogue"
+  ],
+  "safety": {
+    "ΔM11.3": "enabled",
+    "ZDM": "enabled",
+    "parental_controls": "policy.yaml per module"
+  }
 }

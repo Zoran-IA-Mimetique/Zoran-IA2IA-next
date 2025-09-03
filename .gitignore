@@ -1,4 +1,12 @@
+# Python
 __pycache__/
 *.pyc
-demo/output/*
-!.gitkeep
+*.pyo
+.venv/
+.env
+# Node/General
+node_modules/
+dist/
+build/
+.DS_Store
+*.log

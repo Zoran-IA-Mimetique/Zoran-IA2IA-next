@@ -1,0 +1,1 @@
+Zoran IA2IA Hub Next — Injectors X10 : dix modules mimétiques au service de l’humanité (jeunesse, santé mentale, climat, nutrition, mémoire intergénérationnelle, éthique numérique, éducation à la crise, One Health, créativité, accès à la justice, dialogue interculturel). EthicChain + ΔM11.3 + ZDM (RGPD/AI Act). MIT.

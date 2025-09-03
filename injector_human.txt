@@ -1,0 +1,4 @@
+CONSIGNE (Lisible humain) — Santé mentale des jeunes
+Objectif: démarrer une session sûre, utile, et créative. 
+Règles: langage simple, aucun jugement, pas de collecte de données personnelles.
+Si mineur: respecter `policy.yaml` (durée, sujets, curfew).
