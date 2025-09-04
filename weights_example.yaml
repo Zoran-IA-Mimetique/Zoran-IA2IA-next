@@ -1,0 +1,11 @@
+weights:
+  emotion_values: 0.8
+  culture: 0.7
+  society: 0.9
+  environment: 1.0
+  family: 0.85
+  history: 0.6
+  accessibility: 0.75
+  legal: 0.95
+  stakeholders: 0.9
+  uncertainty: 0.8

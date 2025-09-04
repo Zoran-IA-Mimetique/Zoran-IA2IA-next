@@ -1,3 +1,7 @@
-# Changelog
+# Changelog — Évidence 360°
 
-- 2025-08-28 · **V1.1** — Création du dépôt *Outsider Proof* (complément bio), ajout README (TL;DR/1200c), `outsider_proof.md`, `bio_complement.md`, bloc `zgs_block.zgs`, MIT, changelog.
+## V3.1 (2025-09-04)
+- Ajout pondération dynamique des axes.
+- Cas pratiques sectoriels (santé, politique, éducation, environnement, entreprise).
+- Pipeline visuel ajouté.
+- Annexes pratiques : pondération par secteur, checklist rapide, YAML.
