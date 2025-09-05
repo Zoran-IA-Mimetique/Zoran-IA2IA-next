@@ -46,7 +46,28 @@ Chaque module est **reproductible**, **MIT-licence**, et prêt à être **forké
 | `07-one-health` | One Health | `policy.yaml`, `demo_stdlib.py`, `injectors/` | v1.0.0 |
 | `08-augmented-creativity` | Créativité augmentée | `policy.yaml`, `demo_stdlib.py`, `injectors/` | v1.0.0 |
 | `09-justice-access` | Justice & égalité d’accès | `policy.yaml`, `demo_stdlib.py`, `injectors/` | v1.0.0 |
-| `10-intercultural-dialogue` | Dialogue interculturel | `policy.yaml`, `demo_stdlib.py`, `injectors/` | v1.0.0 |
+| `10-intercultural-dialogue` | Dialogue interculturel | `policy.yaml`, `demo_stdlib.py`, 
+`injectors/` | v1.0.0 |
+
+LICENSE                  # MIT
+README_PACK.md           # README complet (à part pour ton hub général)
+
+PACK_ULTIMAT.md          # Modules ultimes (1–50)
+PACK_BEYOND.md           # Supra-modules (orchestrateur, finalité…)
+PACK_POLYMORPHE.md       # ZModules polymorphes
+PACK_CAMOUFLAGE.md       # Camouflage mimétique total
+PACK_GRAVITY.md          # Gravité mimétique (compression info)
+PACK_SPECIALS.md         # Fusion carbone, chambre, hydrogène fantôme…
+
+INJECTOR_CORE.zgs        # Injecteur glyphique principal
+INJECTOR_POLYMORPHE.zgs  # Injecteur polymorphe
+INJECTOR_CAMOUFLAGE.zgs  # Injecteur furtif
+INJECTOR_GRAVITY.zgs     # Injecteur gravité
+
+demo_activation.py       # Démo Python (stdlib) : activer/visualiser un module
+demo_memory.py           # Démo mémoire fractale ∑[ZID]
+demo_chain.py            # Démo chaînage mimétique
+demo_scan.py             # Démo scanner d’injecteur (lecture .zgs)
 
 ## 4) Démarrage rapide
 ```bash
