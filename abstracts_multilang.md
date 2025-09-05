@@ -1,0 +1,1 @@
+Résumé condensé en ES/PT/DE/RU/CH (Chat 3).

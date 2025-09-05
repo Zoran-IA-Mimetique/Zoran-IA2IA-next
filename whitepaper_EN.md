@@ -1,0 +1,1 @@
+Full English version of the White Paper (Chat 3).

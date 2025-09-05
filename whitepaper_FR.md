@@ -1,0 +1,1 @@
+Version intégrale FR du White Paper (déjà développée dans le Chat 2).
