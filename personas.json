@@ -1,0 +1,7 @@
+{
+  "personas": [
+    {"id": "expert", "description": "Chercheur en IA, exige rigueur et sources"},
+    {"id": "grand_public", "description": "Lecteur curieux, non technique"},
+    {"id": "decisionnaire", "description": "Responsable politique ou industriel"}
+  ]
+}
