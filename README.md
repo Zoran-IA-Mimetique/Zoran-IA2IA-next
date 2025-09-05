@@ -69,6 +69,43 @@ demo_memory.py           # Démo mémoire fractale ∑[ZID]
 demo_chain.py            # Démo chaînage mimétique
 demo_scan.py             # Démo scanner d’injecteur (lecture .zgs)
 
+# 🦋 Zoran Integrity Core – Textual Integrity Framework
+
+## 🎯 Objectif
+Un framework ouvert pour garantir la **fiabilité et la transparence** de la production textuelle par IA.  
+Basé sur **27 axes méthodologiques**, il fournit des outils pratiques, des scripts Python simples (stdlib only) et des exemples d’application (white papers, posts LinkedIn…).
+
+---
+
+## 📂 Contenu
+- **AXES_01-10.md** — Méthodes de base (comptage, blocs validés, audit…)
+- **AXES_11-17.md** — Méthodes complémentaires (densité, lisibilité, traçabilité…)
+- **AXES_18-27.md** — Nouvelles méthodes (personas, viralité, débats contradictoires…)
+- **word_counter.py** — Script de comptage (mots, caractères, tokens)
+- **audit_report.py** — Génération d’un rapport d’audit automatique
+- **personas.json** — Définition de personas (lecteur expert, grand public, décideur…)
+- **glossary_builder.py** — Création et gestion d’un glossaire terminologique
+- **whitepaper_demo.md** — Exemple appliqué à un white paper
+- **linkedin_post.md** — Exemple appliqué à un post réseau social
+- **audit_sample.json** — Exemple de rapport d’audit type
+- **LICENSE** — MIT License
+
+---
+
+## 🔑 Principes
+- ✅ **Transparence** : chaque livrable est accompagné de métriques (mots, caractères, tokens)
+- ✅ **Auditabilité** : scripts simples pour vérifier densité, lisibilité et répétitions
+- ✅ **Éthique** : méthodologie publiée sous licence MIT pour usage et réutilisation publics
+- ✅ **Interopérabilité** : format plat (Markdown + JSON + Python stdlib), utilisable partout
+
+---
+
+## 🚀 Usage rapide
+1. Cloner le dépôt :
+   ```bash
+   git clone https://github.com/Zoran-IA-Mimetique/Zoran-Integrity-Core.git
+   cd Zoran-Integrity-Core
+
 ## 4) Démarrage rapide
 ```bash
 # 1. Cloner
