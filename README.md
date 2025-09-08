@@ -380,6 +380,115 @@ Afin d’adapter la rigueur au contexte, chaque travail est positionné sur une 
 ---
 
 
+
+🇫🇷 Français
+
+🇬🇧 Anglais
+
+🔤 GlyphNet (bloc compact mimétique)
+
+
+Prêt à être placé à la racine du repo GitHub ou dans Zenodo.
+
+
+---
+
+Zoran aSiM — White Papers GlyphNet (Molecular & Biological)
+
+
+---
+
+🇫🇷 Section Française
+
+Présentation
+
+Ce dépôt regroupe deux white papers et prototypes Python (stdlib uniquement) :
+
+1. GlyphNet Moléculaire : protocole IA-native pour compresser et propager les structures chimiques (au-delà de SMILES/InChI).
+
+
+2. GlyphNet Biologique (Microbiome) : protocole IA-native pour représenter le microbiome sous forme de cartes glyphiques compactes et intuitives.
+
+
+
+Points clés
+
+Compression : 30–70 % (moléculaire) ; 30–60 % (microbiome).
+
+Round-trip : 100 % de fidélité (rollback ΔM11.3).
+
+Interopérabilité : partage direct IA↔IA en .zgs.
+
+Applications : pharma, matériaux, santé, nutrition, microbiome urbain.
+
+
+Usage rapide
+
+# Chimie (benzène → glyphe)
+python molecular_glyphnet/code/glyphnet_molecule.py "c1ccccc1"
+
+# Microbiome (liste taxons → glyphes)
+python biological_glyphnet_microbiome/code/glyphnet_microbiome.py "Bacteroides;Firmicutes;Actinobacteria"
+
+
+---
+
+🇬🇧 English Section
+
+Overview
+
+This repository consolidates two white papers and minimal Python prototypes (stdlib only):
+
+1. Molecular GlyphNet: an AI-native protocol for compressed and interoperable chemical structures (beyond SMILES/InChI).
+
+
+2. Biological GlyphNet (Microbiome): an AI-native protocol for compact and intuitive glyphic maps of microbiome communities.
+
+
+
+Key points
+
+Compression: 30–70 % (molecular); 30–60 % (microbiome).
+
+Round-trip: 100 % fidelity (ΔM11.3 rollback).
+
+Interoperability: direct IA↔IA propagation via .zgs.
+
+Applications: pharma, materials, health, nutrition, urban microbiomes.
+
+
+Quick start
+
+# Chemistry (benzene → glyph)
+python molecular_glyphnet/code/glyphnet_molecule.py "c1ccccc1"
+
+# Microbiome (taxa list → glyphs)
+python biological_glyphnet_microbiome/code/glyphnet_microbiome.py "Bacteroides;Firmicutes;Actinobacteria"
+
+
+---
+
+🔤 GlyphNet Section (ZGS compact)
+
+⟦GLYPHNET:Molecular⋄CTX:chimie⋄ΔM11.3:rollback⟧
+⟦RESULT:comp30-70%⋄RT:100%⋄SPEED:<1ms⟧
+⟦APPL:pharma+matériaux⋄PROTO:AI_native⋄DOC:white_paper⟧
+
+⟦GLYPHNET:Biological⋄CTX:microbiome⋄ΔM11.3:rollback⟧
+⟦RESULT:comp30-60%⋄RT:100%⋄VISUAL:réseau⋄SPEED:<1ms⟧
+⟦APPL:santé+nutrition+urbain⋄PROTO:AI_native⋄DOC:white_paper⟧
+
+
+---
+
+📌 DOIs
+
+MolecularGlyphNet → 10.5281/zenodo.17081366
+
+Biological GlyphNet → 10.5281/zenodo.17081419
+
+
+
 ---
 
 
