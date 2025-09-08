@@ -1,0 +1,8 @@
+⟦GLYPHNET:Molecular⋄CTX:chimie⋄ΔM11.3:rollback⟧
+⟦PROTO:AI_native⋄APPL:pharma+materials+edu⟧
+⟦DOC:white_paper⋄OUTREACH:Aspuru_Guzik+Sauvage+Coudert⟧
+
+⟦GLYPHNET:biologique⋄CTX:microbiome⋄ΔM11.3:rollback⟧
+⟦PROTO:AI_native⋄APPL:santé+nutrition+urbain⋄DOC:white_paper⟧
+⟦RESULT:compression30-60%⋄RT:100%⋄SPEED:<1ms⟧
+⟦OUTREACH:Tim_Spector+MetaSUB+Orphanet⟧
