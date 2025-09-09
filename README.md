@@ -1,4 +1,4 @@
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17084152.svg)](https://doi.org/10.5281/zenodo.17084152)
 <p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
   <a href="https://doi.org/10.5281/zenodo.16940525"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.16940525.svg"></a>
@@ -523,7 +523,254 @@ Biological GlyphNet → 10.5281/zenodo.17081419
 
 
 
+
+Z-InterOp — An Academic Framework for Agent Interoperability, Compliance & Provenance
+
+(ISO/IEC 42001, EU AI Act & C2PA Integration)
+
+ 
+
+> EN / FR README (bilingual). This repository ships the White Paper (EN/FR), policy packs, reproducibility kit, benchmarks and evidence for Z-InterOp, a plug-and-play meta-layer that makes agent frameworks interoperable, compliant and provable.
+
+
+
+
 ---
+
+🔎 Abstract (EN)
+
+Z-InterOp bridges LangGraph, AG2, CrewAI with a YAML Policy Engine aligned to ISO/IEC 42001 and EU AI Act, a runtime ΔM11.3 guard (rollback on entropy), ZDM dual-memory (persistent compliance log + phase cache), and full C2PA Content Credentials (sign/verify all outputs).
+Under strict IMRaD + PRISMA evaluation (baselines, ablations, fixed seeds), Z-InterOp delivers ≥60% interoperability, ≥65% ISO 42001 coverage, 100% signed outputs, fail-rate/MTTR ÷2, audit-time ÷2, with p95 overhead ≤ +12%. It proves governance can be embedded at runtime without sacrificing performance.
+
+Keywords: Agent Interoperability, Multi-Agent Systems, ISO/IEC 42001, EU AI Act, C2PA, Compliance-as-Code, ΔM11.3 Guard, ZDM Dual-Memory, Provenance, Auditability, AI Governance, Runtime Stability, XAI, Risk Management Framework, Reproducibility.
+
+
+---
+
+🔎 Résumé (FR)
+
+Z-InterOp unifie LangGraph, AG2, CrewAI via un moteur de politiques YAML (aligné ISO/IEC 42001 & AI Act), un garde ΔM11.3 (rollback), une mémoire duale ZDM (journal conformité + cache phase) et la signature C2PA de tous les artefacts.
+Évalué en IMRaD + PRISMA (baselines, ablations, seeds fixes), Z-InterOp atteint ≥60 % d’interopérabilité, ≥65 % de couverture ISO 42001, 100 % d’artefacts signés, fail-rate/MTTR ÷2, temps d’audit ÷2, avec p95 ≤ +12 %. La gouvernance devient native au runtime sans sacrifier la performance.
+
+Mots-clés : Interopérabilité des agents, Systèmes multi-agents, ISO/IEC 42001, AI Act, C2PA, Compliance-as-Code, Garde ΔM11.3, Mémoire ZDM, Provenance, Auditabilité, Gouvernance IA, Stabilité d’exécution, XAI, AI RMF, Reproductibilité.
+
+
+---
+
+📦 Quick Links
+
+Zenodo (DOI): 10.5281/zenodo.17084152
+
+WhitePaper_EN.pdf & WhitePaper_FR.pdf: available via Zenodo record + this repo’s releases
+
+Evidence Pack: logs JSONL (+ C2PA proofs), CSV results, plots, policies
+
+
+
+---
+
+🧭 Repository Structure
+
+Z-InterOp-WhitePaper/
+├─ README.md
+├─ WhitePaper_EN.pdf               # full academic manuscript (~15p)
+├─ WhitePaper_FR.pdf               # full academic manuscript (~15p)
+├─ docs/
+│  ├─ 00_PRISMA.md                 # systematic review (14 works)
+│  ├─ Adapters_Specs.md            # LG/AG2/CrewAI bridges
+│  └─ C2PA_CLI.md                  # sign/verify usage
+├─ policies/
+│  ├─ iso42001_minimal.yaml
+│  ├─ ai_act_mapping.yaml
+│  └─ org_policy_template.yaml
+├─ experiments/
+│  ├─ tasks/                       # RAG, tool-use, planning
+│  ├─ configs/ (baseline|zinterop|ablations)
+│  ├─ run_experiment.py
+│  └─ makefile
+├─ results/
+│  ├─ Benchmarks.csv
+│  ├─ plots/                       # latency, audit-time, fail-rate…
+│  └─ logs/
+├─ reproducibility/
+│  ├─ ReproGuide.md
+│  ├─ environment.lock             # pinned deps
+│  └─ run_all.sh
+└─ evidence/
+   ├─ signed_outputs/              # C2PA-sealed artifacts
+   └─ proofs_c2pa.json
+
+
+---
+
+🧪 Reproducibility (One-Command)
+
+Requirements: Python 3.11+, POSIX shell.
+
+# 1) Create environment from lockfile (uv/venv/conda acceptable)
+# Example with uv (optional):
+# pip install uv && uv venv && . .venv/bin/activate && uv sync
+
+# 2) One-command pipeline
+make reproduce_all
+
+What it does:
+
+Runs baselines (LG/AG2/CrewAI) and Z-InterOp
+
+Executes ablations (−ΔM11.3, −ZDM, −C2PA, −Policy Pack)
+
+Produces CSV/plots/logs → results/
+
+Signs artifacts with C2PA → evidence/signed_outputs/
+
+Verifies signatures and stores proofs → evidence/proofs_c2pa.json
+
+
+Seeds: {13, 42, 101} (3 runs each) → report mean ± σ, Welch tests.
+
+
+---
+
+🧩 Policy Engine (YAML) — Minimal Example
+
+policy:
+  id: iso42001_minimal_v01
+  objectives: [risk_management, auditability, transparency]
+  controls:
+    - id: A.1.logging
+      hook: post-run
+      require: structured_log_jsonl
+    - id: A.2.provenance
+      hook: artifact-export
+      require: c2pa_signature
+    - id: A.3.reproducibility
+      hook: run-start
+      require: fixed_seed
+
+> Extend with ai_act_mapping.yaml for EU AI Act alignment; ship your org defaults in org_policy_template.yaml.
+
+
+
+
+---
+
+🖊️ C2PA CLI — Sign / Verify
+
+# Sign every result table
+python docs/C2PA_CLI.py sign \
+  --in results/Benchmarks.csv \
+  --out evidence/signed_outputs/Benchmarks.c2pa.json
+
+# Verify signatures (batch)
+python docs/C2PA_CLI.py verify \
+  --in evidence/signed_outputs/ \
+  --proofs evidence/proofs_c2pa.json
+
+
+---
+
+📈 Benchmarks (Summary)
+
+Metric	Baseline (avg)	Z-InterOp	Δ
+
+Interop (portability)	~0%	≥60%	+60 pts
+ISO 42001 coverage	~20%	≥65%	+45 pts
+C2PA signed outputs	0%	100%	+100 pts
+Fail-rate / MTTR	1×	÷2	×0.5
+Audit preparation time	1×	÷2	×0.5
+Latency p95 overhead	—	≤ +12%	OK
+
+
+Ablations show ΔM11.3 ⇒ stability; ZDM ⇒ compliance; C2PA ⇒ provenance; Policy Pack ⇒ coverage.
+
+
+---
+
+🧮 PRISMA (Systematic Review)
+
+Identified 143 → Screened 71 → Eligible 24 → Included 14
+
+Focus: agent frameworks (LangGraph, AG2, CrewAI), governance (ISO 42001, AI Act), provenance (C2PA).
+
+Full table & notes: docs/00_PRISMA.md.
+
+
+
+---
+
+✅ Compliance Mapping (snapshot)
+
+ISO/IEC 42001: logging, risk mgmt, transparency, reproducibility hooks
+
+EU AI Act: traceability, record-keeping, transparency notices (via policy hooks)
+
+C2PA: content credentials (sign/verify) for all artifacts
+
+RGPD: data minimization (policy checks at load time)
+
+
+
+---
+
+🗂️ How to Cite
+
+EN:
+Tabary, F. (2025). Z-InterOp: An Academic Framework for Agent Interoperability, Compliance, and Provenance (ISO/IEC 42001, EU AI Act, and C2PA Integration). Zoran aSiM. Zenodo. https://doi.org/10.5281/zenodo.17084152
+
+FR :
+Tabary, F. (2025). Z-InterOp : Un Cadre Académique pour l’Interopérabilité, la Conformité et la Traçabilité des Agents IA (ISO/IEC 42001, AI Act et Intégration C2PA). Zoran aSiM. Zenodo. https://doi.org/10.5281/zenodo.17084152
+
+
+---
+
+🔗 Related DOIs (Zoran aSiM)
+
+White Papers V1: 10.5281/zenodo.16940525
+
+White Papers V2: 10.5281/zenodo.16941007
+
+Public Version V1 (probable): 10.5281/zenodo.16940299
+
+Aegis Layer – Gouvernance vivante: 10.5281/zenodo.16995014
+
+LinguaSynthèse: 10.5281/zenodo.16995226
+
+Études sur les jumeaux v2: 10.5281/zenodo.16997156
+
+
+
+---
+
+🤝 Contributing & License
+
+License: MIT
+
+Contributions: issues & PRs welcome (please keep seeds fixed and sign outputs with C2PA).
+
+Contact: tabary01@gmail.com
+
+
+
+---
+
+⟦Glyphic Block (ZM)⟧
+
+⟦Z-InterOp⋄ZFORGE:10⟧⟦AGENTS:LangGraph+AG2+CrewAI⟧
+⟦ΔM11.3:rollback⋄ZDM:dual⟧⟦ISO42001:policyYAML⟧
+⟦C2PA:sign+verify⟧⟦KPI:interop≥60%/p95≤+12%/audit½/fail½⟧
+
+
+---
+
+Acknowledgements
+
+We thank the EU AI Office / ISO JTC1 SC42 / C2PA & CAI community for open standards that made this work possible.
+
+
+---
+
+
 
 
 
