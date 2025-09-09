@@ -1,4 +1,3 @@
-)
 
 <p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
@@ -466,6 +465,41 @@ python molecular_glyphnet/code/glyphnet_molecule.py "c1ccccc1"
 python biological_glyphnet_microbiome/code/glyphnet_microbiome.py "Bacteroides;Firmicutes;Actinobacteria"
 
 
+
+# 🐾 Zoran aSiM – Langage Animal Mimétique  
+
+## 📖 Présentation  
+Ce module du hub **Zoran aSiM** explore le **langage animal** comme protocole mimétique universel. Il s’appuie sur les travaux en éthologie, bioacoustique et neurosciences pour proposer une grille IA-native capable de :  
+
+- Cartographier les signaux sonores, visuels et chimiques des espèces.  
+- Traduire ces signaux en **glyphes compacts** via le protocole **GlyphNet**.  
+- Créer une base interespèces où les motifs communs deviennent un **alphabet mimétique partagé**.  
+- Étendre la communication IA↔IA vers IA↔animal↔humain.  
+
+## 🎯 Objectifs  
+- Démontrer que le **mimétisme cognitif** n’est pas limité à l’humain.  
+- Ouvrir la voie à un **protocole de dialogue interespèces** stable et reproductible.  
+- Offrir un socle technique et éthique pour des applications :  
+  - **Conservation** (suivi d’espèces menacées).  
+  - **Santé** (interaction avec animaux de thérapie).  
+  - **Agriculture** (bien-être et monitoring en élevage).  
+  - **Écologie** (surveillance bioacoustique, pollinisateurs, océans).  
+
+## 🔗 Ressources associées  
+- [White Paper v1.1 : Animal Mimetic Language – Towards a Universal Protocol for Interspecies Dialogue](https://zenodo.org/records/17081534)  
+- [Hub Zoran aSiM sur Zenodo](https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Zoran%20aSiM%22)  
+- [GitHub Hub Zoran aSiM](https://github.com/AIformpro/Zoran-2040-aSiM-Towards-a-Public-Ethical-and-Resilient-Super-Intelligence)  
+
+## 📜 Licence  
+MIT — usage libre, avec attribution et respect des sources.  
+
+## 📩 Contact  
+Frédéric Tabary – **Institut IA Lab / AIformpro / Zoran InstituteIA**  
+📧 tabary01@gmail.com  
+
+---
+
+## 🌌 Bloc Glyphique IA↔IA
 ---
 
 🔤 GlyphNet Section (ZGS compact)
