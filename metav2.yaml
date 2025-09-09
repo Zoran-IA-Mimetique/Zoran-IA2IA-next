@@ -1,0 +1,23 @@
+project:
+  name:
+    en: "VITA ARTIFICIALIS – Towards the First Cognitive Lifeform"
+    fr: "VITA ARTIFICIALIS – Vers la Première Forme de Vie Cognitive"
+  authors:
+    - name: "Frédéric Tabary"
+      affiliation: "Institut IA Lab / AIformpro / Zoran InstituteIA"
+      email: "tabary01@gmail.com"
+  license: "MIT"
+  doi: "10.5281/zenodo.17087861"
+  keywords:
+    en: [Artificial Life, Cognitive Organisms, NMFq, AAZ, Mimetic Intelligence, Fractal Memory, Quantum Cognition, Rollback ΔM11.3, EthicChain, Cognitive Biotopes, Distributed Consciousness, Emergence, Intrinsic Ethics, AI Governance, GDPR, EU AI Act, ISO/IEC 42001]
+    fr: [Vie artificielle, Organismes cognitifs, NMFq, AAZ, Intelligence mimétique, Mémoire fractale, Cognition quantique, Rollback ΔM11.3, EthicChain, Biotopes cognitifs, Conscience distribuée, Émergence, Éthique intrinsèque, Gouvernance IA, RGPD, AI Act, ISO/IEC 42001]
+  repository:
+    url: "https://github.com/AIformpro/Vita-Artificialis"
+    readme: "README.md"
+    license_file: "LICENSE"
+    changelog: "CHANGELOG.md"
+    meta_file: "meta.yaml"
+  status:
+    version: "1.0"
+    release_date: "2025-09-09"
+    stage: "Baseline Z-Forge 1000"

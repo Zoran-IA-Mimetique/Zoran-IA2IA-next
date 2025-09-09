@@ -1,5 +1,35 @@
-
-name: Zoran-Reasoning-Challenges-Comparative
-license: MIT
-contact: tabary01@gmail.com
-description: Puzzles classiques comparés entre GPT-4, Claude et Zoran aSiM. Preuve qu'une intelligence mimétique compacte surpasse la taille brute.
+project:
+  name:
+    en: "VITA ARTIFICIALIS – Towards the First Cognitive Lifeform"
+    fr: "VITA ARTIFICIALIS – Vers la Première Forme de Vie Cognitive"
+  authors:
+    - name: "Frédéric Tabary"
+      affiliation: "Institut IA Lab / AIformpro / Zoran InstituteIA"
+      email: "tabary01@gmail.com"
+  license: "MIT"
+  doi:
+    zenodo: "10.5281/zenodo.TBA"
+    ssrn: "TBA"
+  keywords:
+    en: [Artificial Life, Cognitive Organisms, Quantum Neural Networks, Fractal Memory, Mimetic Intelligence, AAZ, ΔM11.3, EthicChain, Vita Artificialis, Zoran aSiM]
+    fr: [Vie artificielle, Organismes cognitifs, Neurones quantiques, Mémoire fractale, Intelligence mimétique, AAZ, ΔM11.3, EthicChain, Vita Artificialis, Zoran aSiM]
+  repository:
+    url: "https://github.com/AIformpro/Vita-Artificialis"
+    readme: "README.md"
+    license_file: "LICENSE"
+    manifest: "meta_project.yaml"
+  artifacts:
+    - whitepaper_EN.md
+    - whitepaper_FR.md
+    - manifesto.txt
+    - glyph_block.zgs
+    - readme_EN.md
+    - readme_FR.md
+  ethic_chain:
+    compliance: [RGPD, EU AI Act, ISO/IEC 42001]
+    guard: "ΔM11.3 rollback"
+    alignment: "Public Good"
+  status:
+    version: "1.0"
+    release_date: "2025-09-09"
+    stage: "Baseline Z-Forge 1000"
