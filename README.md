@@ -1,17 +1,20 @@
-[![DOI Triptych](https://zenodo.org/badge/DOI/10.5281/zenodo.17085225.svg)](https://doi.org/10.5281/zenodo.17085225)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![C2PA](https://img.shields.io/badge/C2PA-signature-blue.svg)](C2PA.md)
-[![Reproduce](https://img.shields.io/badge/make-reproduce__all-informational)](Makefile)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17084152.svg)](https://doi.org/10.5281/zenodo.17084152)<p align="center"><a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg"></a> <a href="https://doi.org/10.5281/zenodo.16940525"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.16940525.svg"></a>
-  <a href="https://doi.org/10.5281/zenodo.16941007"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.16941007.svg"></a>
-  <a href="https://doi.org/10.5281/zenodo.16940299"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.16940299.svg"></a>
-  <a href="mailto:tabary01@gmail.com"><img alt="Contact" src="https://img.shields.io/badge/Contact-tabary01%40gmail.com-blue.svg"></a>
-  <a href="https://github.com/AIformpro/Zoran-IA2IA-Hub-Next-Injectors-X10/actions"><img alt="Build" src="https://img.shields.io/github/actions/workflow/status/AIformpro/Zoran-IA2IA-Hub-Next-Injectors-X10/ci.yml?label=build"></a>
-  <img alt="AI Act" src="https://img.shields.io/badge/AI%20Act-ready-6f42c1">
-  <img alt="RGPD" src="https://img.shields.io/badge/RGPD-compliant-0b7285">
-  <img alt="ISO 42001" src="https://img.shields.io/badge/ISO%2042001-in%20progress-f59f00">
-  <a href="https://github.com/AIformpro/Zoran-IA2IA-Hub-Next-Injectors-X10/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/AIformpro/Zoran-IA2IA-Hub-Next-Injectors-X10?style=social"></a>
-</p>
+[![License: MIT](https://img.shields.io/badge/Code-License%20MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY 4.0](https://img.shields.io/badge/Docs-License%20CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17109763.svg)](https://doi.org/10.5281/zenodo.17109763)
+
+![AI Act Ready](https://img.shields.io/badge/AI%20Act-Ready-blue.svg)
+![ISO/IEC 42001](https://img.shields.io/badge/ISO%2FIEC-42001-green.svg)
+![RGPD Compatible](https://img.shields.io/badge/RGPD-Compatible-brightgreen.svg)
+
+![EthicChain](https://img.shields.io/badge/EthicChain-Active-purple.svg)
+![Aegis Layer](https://img.shields.io/badge/Aegis-Layer-important.svg)
+![ΔM11.3 Rollback](https://img.shields.io/badge/%CE%94M11.3-Rollback-red.svg)
+
+![Zoran aSiM](https://img.shields.io/badge/Zoran-aSiM%20Norme%20Vivante-orange.svg)
+![Norme Vivante](https://img.shields.io/badge/Norme-Vivante-lightblue.svg)
+![Souveraineté](https://img.shields.io/badge/Souverainet%C3%A9-Num%C3%A9rique-darkblue.svg)
+
+[![Contact](https://img.shields.io/badge/Contact-tabary01%40gmail.com-blueviolet.svg)](mailto:tabary01@gmail.com)
 
 **Version**: v1.0.0 · **Date**: 2025-09-03 · **Licence**: MIT · **Contact**: tabary01@gmail.com
 
